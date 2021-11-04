@@ -1,5 +1,6 @@
 import Footer from "./components/Footer.js";
 import Header from "./components/Header.js";
+import OurServices from './components/OurServices.js'
 
 function App() {
   return (
@@ -10,48 +11,7 @@ function App() {
 
       <Header />
 
-      <div classNameName="page-section">
-        <div classNameName="container">
-          <div className="row">
-            <div classNameName="col-lg-4">
-              <div className="card-service wow fadeInUp">
-                <div className="header">
-                  <img src="/img/services/service-1.svg" alt=""/>
-                </div>
-                <div className="body">
-                  <h5 className="text-secondary">SEO Consultancy</h5>
-                  <p>We help you define your SEO objective & develop a realistic strategy with you</p>
-                  <a href="service.html" className="btn btn-primary">Read More</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="card-service wow fadeInUp">
-                <div className="header">
-                  <img src="/img/services/service-2.svg" alt=""/>
-                </div>
-                <div className="body">
-                  <h5 className="text-secondary">Content Marketing</h5>
-                  <p>We help you define your SEO objective & develop a realistic strategy with you</p>
-                  <a href="service.html" className="btn btn-primary">Read More</a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="card-service wow fadeInUp">
-                <div className="header">
-                  <img src="/img/services/service-3.svg" alt=""/>
-                </div>
-                <div className="body">
-                  <h5 className="text-secondary">Keyword Research</h5>
-                  <p>We help you define your SEO objective & develop a realistic strategy with you</p>
-                  <a href="service.html" className="btn btn-primary">Read More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> 
-      </div> 
+      <OurServices />
 
       <div classNameName="page-section" id="about">
         <div className="container">
@@ -161,7 +121,7 @@ function App() {
       </div> 
 
       <div classNameName="page-section banner-seo-check">
-        <div className="wrap bg-image" style={{backgroundImage: 'url(../img/bg_pattern.svg)'}}>
+        <div className="wrap bg-image" style={{backgroundImage: 'url(/img/bg_pattern.svg)'}}>
           <div className="container text-center">
             <div className="row justify-content-center wow fadeInUp">
               <div className="col-lg-8">
